@@ -66,7 +66,11 @@ While performing this task, WSL will download the system image from the hosting 
 When you see the Linux command prompt, you can perform some housekeeping things to make your base image more ready-to-use, which can be out-of-box. Sure, you can call here any housekeeping commands which are specific to your tasks.
 ```
 sudo apt update
+```
+```
 sudo apt upgrade -y
+```
+```
 sudo apt install openssh-client bash-completion
 ```
 
@@ -86,6 +90,8 @@ Now, we can create as many copies of our WSL distribution as we need. To do that
 
 ```
 wsl --import Debian-VSBig D:\Polygon\Learn\WSL\VSBig .\Debian.tar
+```
+```
 wsl --import Debian-VSCode D:\Polygon\Learn\WSL\VSCode .\Debian.tar
 ```
 
@@ -93,7 +99,7 @@ With these two commands, I've created two instances of our template WSL distribu
 
 
 ## Conclusion
-Now we have an approach to run and debug some Linux-specific tasks from the Windows development environment.
+Now we have an approach to running and debugging some Linux-specific tasks from the Windows development environment.
 
 
 ## Reference List
