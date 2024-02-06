@@ -1,7 +1,7 @@
 # Windows Subsystem for Linux
 
 ## Abstract
-Sometimes, we need to create some elementary things to provide a proper environment for a project. As we don't perform these things every day we can forget some details and we'll be forsed to spend nights to google it. It is reaaly better to have the short form of the information in the understandable form.
+Sometimes, we need to create some elementary things to provide a proper environment for a project. As we don't perform these things every day, we can forget some details, and we'll be forced to spend nights googling them. It is better to have the short form of the information in an understandable form.
 
 ## Introduction
 The article covers several tiny activities:
@@ -10,6 +10,8 @@ The article covers several tiny activities:
 - Accessing the working WSL distribution command line;
 - Creating the restore points of the WSL distribution instance;
 - Creating the clones of the distribution for different experiments.
+
+The use case of the article is to create two particular WSL Distributions cloned from one source WSL Distribution, to use them later in the experiments with Visual Studio and with Visual Studio Code.
 
 ## Some of the Basic WSL Commands
 The commands I use in the job, described in the article, are:
@@ -24,7 +26,7 @@ The commands I use in the job, described in the article, are:
 The commands I use in the job to set up some initial substances inside of the WSL Distributions are:
 - ```sudo apt update``` - Actualise the index of system updater;
 - ```sudo apt upgrade -y``` - Actualise the system software;
-- ```sudo apt install openssh-client bash-completion``` - Install a useful tool to make you interaction with the command line more useful.
+- ```sudo apt install openssh-client bash-completion``` - Install a useful tool to make your interaction with the command line more useful.
 
 
 
@@ -54,16 +56,37 @@ If we get something confusing us here, we must uninstall unnecessary instances, 
 wsl --install -d Debian
 ```
 Indeed, instead of Debian, you can use the name of the source image you need to use for your purposes.
+While performing this task, WSL will download the system image from the hosting site, deploy it on your system, and run it. It can take some time, depending on the size of the selected image and your connection speed. When the deployment is complete, you will be prompted to enter your name and password.
 
+
+### Make some of your task-specific preparations
+When you see the Linux command prompt, you can perform some housekeeping things to make your base image more ready-to-use, which can be out-of-box. Sure, you can call here any housekeeping commands which are specific to your tasks.
+```
+sudo apt update
+sudo apt upgrade -y
+sudo apt install openssh-client bash-completion
 ```
 
+### Prepare your local WSL distribution template image
+Now, we can create an archive copy of our WSL distribution. We can use it as a template for creating our experimental WSL distributions or as restore points for tests or experiments. We need to decide which directory we will use to store the images and the name of our image template. The WSL creates tar archives of the distributions. We can use the command to do that:
+```
+wsl --export Debian D:\Polygon\Learn\WSL\Debian.tar
+```
+Now, we can go to Windows Explorer, Far, or whatever you use to see the archive WSL created for us. We can keep it, make copies, etc.
+
+
+### Create a new WSL distribution from the local archive
+Now, we can create as many copies of our WSL distribution as we need. To do that, we must know three things.
+1. The path to our WSL template archive;
+2. The directory where WSL distribution will be locally deployed;
+3. The name of our new WSL distribution instance (yes, now we have a parameter to name it).
+
+```
+wsl --import Debian-VSBig D:\Polygon\Learn\WSL\VSBig .\Debian.tar
+wsl --import Debian-VSCode D:\Polygon\Learn\WSL\VSCode .\Debian.tar
 ```
 
-
-
-```
-
-```
+With these two commands, I've created two instances of our template WSL distribution to make all the experiments I want to perform with them.
 
 
 ## Reference List
