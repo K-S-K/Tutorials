@@ -103,6 +103,6 @@ Now we have an approach to running and debugging some Linux-specific tasks from 
 
 
 ## Reference List
-- [[^1]: Installing Debian on Windows 10/11 using WSL from the command line](https://feriman.com/installing-debian-on-windows-1011-using-wsl-from-the-command-line/)
-- [[I] Microsoft training course - Training – Introduction to Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/training/modules/wsl-introduction)
+- [^1]: [Installing Debian on Windows 10/11 using WSL from the command line](https://feriman.com/installing-debian-on-windows-1011-using-wsl-from-the-command-line/)
+- [I]: [Microsoft training course - Training – Introduction to Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/training/modules/wsl-introduction)
 
