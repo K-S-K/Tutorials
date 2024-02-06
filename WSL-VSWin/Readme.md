@@ -20,6 +20,14 @@ This (second) command will install the set of tools:
 - zip
 - An underlying build system generator
 
+This operation will download 114 MB of data and fill 433 MB of the disk space. So, our WSL instance file on the disk will grow from 504 Mb to 1.17 Gb.
+
+Now, when the operation is completed, let's create a backup of our image. To do that, execute the next command:
+```
+wsl --export Debian-VSBig D:\Polygon\Learn\WSL\Debian-VSBig-01-gpp.tar
+```
+The archive size at this stage is 817 Mb.
+
 
 ## References
 [^ksk-wsl-intro]: [Windows Subsystem for Linux - the neibhour article](../WSL/Readme.md)
