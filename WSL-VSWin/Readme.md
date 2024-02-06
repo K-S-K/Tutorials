@@ -1,1 +1,1 @@
-# WSL - targeted development with MS Visual Studio
+# WSL-targeted development with MS Visual Studio
