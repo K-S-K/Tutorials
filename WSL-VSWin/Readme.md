@@ -5,6 +5,7 @@ This article explains the base workflow for the development with Visual Studio f
 
 ## Preparations
 #### First, we must prepare the WSL Distribution image[^ksk-wsl-intro].
+As a result of this stage, we have a clear Debian-based WSL Image, named, in my case, Debian-VSBig. Also, we have a base image archive as a restore point if we want to alter something in the flow without unnecessary time and traffic spending. The image size at this stage is 433 MB, and the backup size is 386 MB. These sizes can be other in the future; the sizes are actual for the article creation time and have only evaluation purposes.
 
 #### Then, we must install the necessary tools to our WSL image[^ms-intro].
 ```
