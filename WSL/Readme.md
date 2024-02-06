@@ -105,6 +105,9 @@ With these two commands, I've created two instances of our template WSL distribu
 ## Conclusion
 Now, we have an approach to running and debugging some Linux-specific tasks from the Windows development environment. More interesting things you can see in the Microsoft training course [^I].
 
+## Additional information
+- [Color schemes in Windows Terminal - learn.microsoft.com](https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes)
+- [How to setup a nice looking terminal with WSL - medium.com](https://medium.com/@Aagerblad/how-to-setup-a-nice-looking-terminal-with-wsl-in-windows-10-creators-update-2b468ed7c326)
 
 ## Reference List
 [^1]: [Installing Debian on Windows 10/11 using WSL from the command line by Mr. Feriman](https://feriman.com/installing-debian-on-windows-1011-using-wsl-from-the-command-line/)
