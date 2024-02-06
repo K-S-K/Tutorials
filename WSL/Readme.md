@@ -17,7 +17,7 @@ The use case of the article is to create two particular WSL Distributions cloned
 So we go Linux, and it's time to make steps from UI-centric life to the world of commands. We will use commands in Windows Console, and we will also write some commands into the Linux subsystem via Windows Terminal. But before we go, let's see all the commands we will use in our experiments.
 
 ### Some of the Basic WSL Commands
-There are perfect and detailed descriptions of most WSL commands at the official site[^2]. This article does not contain all of them.
+There are perfect and detailed descriptions of most WSL commands at the official site[^ms-learn-basic]. This article does not contain all of them.
 The commands I use in the job, described in the article, are:
 - ```wsl --list --all -v``` - Get the list of WSL Distributions we have registered on the local machine
 - ```wsl --list --online``` - Get the list of the official WSL source images we can use to create our local WSL Distributions
@@ -37,7 +37,7 @@ The commands I use in the job to set up some initial substances inside of the WS
 ## Experimental part
 
 ### Creating the WSL distribution of the desired type
-There are a lot of templates for WSL distributions that we can use, as official and as custom. We can name many reasons for choosing, like customer requirements, image size, target platform performance, etc. But this is not the point of this article. As a requirement for this article, we have, for instance, the **Debian** image as an initial image template. At least it is a very compact version of Linux (according to [^ms-learn-basic]) - it requires 93.5 Mb to download instead of 608 Mb of Ubuntu; it can be important when you use a metered connection. Also, Debian gets 508 MB of disk space, while Ubuntu wants 7.7 GB. So, the choice is yours.
+There are a lot of templates for WSL distributions that we can use, as official and as custom. We can name many reasons for choosing, like customer requirements, image size, target platform performance, etc. But this is not the point of this article. As a requirement for this article, we have, for instance, the **Debian** image as an initial image template. At least it is a very compact version of Linux (according to [^1]) - it requires 93.5 Mb to download instead of 608 Mb of Ubuntu; it can be important when you use a metered connection. Also, Debian gets 508 MB of disk space, while Ubuntu wants 7.7 GB. So, the choice is yours.
 
 ### Get the name of the source image we can use as the initial template
 ```
