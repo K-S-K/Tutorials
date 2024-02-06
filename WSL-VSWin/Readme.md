@@ -4,9 +4,9 @@
 This article explains the base workflow for the development with Visual Studio for the Linux projects hosted on WSL.
 
 ## Preparations
-First, we must prepare the WSL Distribution image[^ksk-wsl-intro].
+#### First, we must prepare the WSL Distribution image[^ksk-wsl-intro].
 
-Then, we must install the necessary tools to our WSL image[^ms-intro].
+#### Then, we must install the necessary tools to our WSL image[^ms-intro].
 ```
 sudo apt update
 sudo apt install g++ gdb make ninja-build rsync zip
