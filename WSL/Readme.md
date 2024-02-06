@@ -13,7 +13,10 @@ The article covers several tiny activities:
 
 The use case of the article is to create two particular WSL Distributions cloned from one source WSL Distribution, to use them later in the experiments with Visual Studio and with Visual Studio Code.
 
-## Some of the Basic WSL Commands
+## Commands
+So we go Linux, and it's time to make steps from UI-centric life to the world of commands. We will use commands in Windows Console, and we will also write some commands into the Linux subsystem via Windows Terminal. But before we go, let's see all the commands we will use in our experiments.
+
+### Some of the Basic WSL Commands
 The commands I use in the job, described in the article, are:
 - ```wsl --list --all -v``` - Get the list of WSL Distributions we have registered on the local machine
 - ```wsl --list --online``` - Get the list of the official WSL source images we can use to create our local WSL Distributions
@@ -22,15 +25,15 @@ The commands I use in the job, described in the article, are:
 - ```wsl --import Debian-VSBig D:\Polygon\Learn\WSL\VSBig .\Debian.tar``` - Restore the particular WSL Distribution version to the new separated instance.
 - ```wsl --import Debian-VSCode D:\Polygon\Learn\WSL\VSCode .\Debian.tar``` - Restore the particular WSL Distribution version to the new separated instance.
 
-## Some of Linux Commands
+### Some of Linux Commands
 The commands I use in the job to set up some initial substances inside of the WSL Distributions are:
 - ```sudo apt update``` - Actualise the index of system updater;
 - ```sudo apt upgrade -y``` - Actualise the system software;
 - ```sudo apt install openssh-client bash-completion``` - Install a useful tool to make your interaction with the command line more useful.
 
+## Experimental part
 
-
-## Creating the WSL distribution of the desired type
+### Creating the WSL distribution of the desired type
 There are a lot of templates for WSL distributions that we can use, as official and as custom. We can name many different reasons for choosing, like customer requirements, image size, target platform performance, etc. But this is not the point of this article. As a requirement for this article, we have, for instance, the **Debian** image as an initial image template. At least it is a very compact version of Linux (according to [1]) - it requires 93.5 Mb to download instead of 608 Mb of Ubuntu; it can be important when you use a metered connection. Also, Debian gets 508 MB of disk space, while Ubuntu wants 7.7 GB. So, the choice is yours.
 
 ### Get the name of the source image we can use as the initial template
@@ -87,6 +90,10 @@ wsl --import Debian-VSCode D:\Polygon\Learn\WSL\VSCode .\Debian.tar
 ```
 
 With these two commands, I've created two instances of our template WSL distribution to make all the experiments I want to perform with them.
+
+
+## Conclusion
+Now we have an approach to run and debug some Linux-specific tasks from the Windows development environment.
 
 
 ## Reference List
