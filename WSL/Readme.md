@@ -99,7 +99,7 @@ With these two commands, I've created two instances of our template WSL distribu
 
 
 ## Conclusion
-Now, we have an approach to running and debugging some Linux-specific tasks from the Windows development environment. More interesting things you can see in the Microsoft training course [^I]
+Now, we have an approach to running and debugging some Linux-specific tasks from the Windows development environment. More interesting things you can see in the Microsoft training course [^I].
 
 
 ## Reference List
