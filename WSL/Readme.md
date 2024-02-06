@@ -34,7 +34,7 @@ The commands I use in the job to set up some initial substances inside of the WS
 ## Experimental part
 
 ### Creating the WSL distribution of the desired type
-There are a lot of templates for WSL distributions that we can use, as official and as custom. We can name many different reasons for choosing, like customer requirements, image size, target platform performance, etc. But this is not the point of this article. As a requirement for this article, we have, for instance, the **Debian** image as an initial image template. At least it is a very compact version of Linux (according to [^1]) - it requires 93.5 Mb to download instead of 608 Mb of Ubuntu; it can be important when you use a metered connection. Also, Debian gets 508 MB of disk space, while Ubuntu wants 7.7 GB. So, the choice is yours.
+There are a lot of templates for WSL distributions that we can use, as official and as custom. We can name many reasons for choosing, like customer requirements, image size, target platform performance, etc. But this is not the point of this article. As a requirement for this article, we have, for instance, the **Debian** image as an initial image template. At least it is a very compact version of Linux (according to [^1]) - it requires 93.5 Mb to download instead of 608 Mb of Ubuntu; it can be important when you use a metered connection. Also, Debian gets 508 MB of disk space, while Ubuntu wants 7.7 GB. So, the choice is yours.
 
 ### Get the name of the source image we can use as the initial template
 ```
@@ -49,7 +49,7 @@ To do that, we must ask the system to show us the list of registered images:
 ```
 wsl --list --all
 ```
-Suddenly, the system wants to name a new WSL distribution with the name of the source image. We can't change this flow, so we must adapt our flow to have it compatible with the things we have to deal with.
+Suddenly, the system wants to name a new WSL distribution with the name of the source image. We can't change this flow, so we must adapt it to be compatible with what we have to deal with.
 
 If we get something confusing us here, we must uninstall unnecessary instances, rename necessary instances, or plan an alternative name for our WSL distribution. The good practice is not to use default names like "Debian" or "Ubuntu" on the run. Once we create something with a default name (by the design of tools we have to use), we must rename them to our custom names. That's how we avoid some name collisions in the future.
 **TODO: Research the system behavior here.**
@@ -103,6 +103,6 @@ Now we have an approach to running and debugging some Linux-specific tasks from 
 
 
 ## Reference List
-- [[^1] Installing Debian on Windows 10/11 using WSL from the command line](https://feriman.com/installing-debian-on-windows-1011-using-wsl-from-the-command-line/)
+- [[^1]: Installing Debian on Windows 10/11 using WSL from the command line](https://feriman.com/installing-debian-on-windows-1011-using-wsl-from-the-command-line/)
 - [[I] Microsoft training course - Training – Introduction to Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/training/modules/wsl-introduction)
 
