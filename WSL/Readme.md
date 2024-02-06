@@ -17,13 +17,16 @@ The use case of the article is to create two particular WSL Distributions cloned
 So we go Linux, and it's time to make steps from UI-centric life to the world of commands. We will use commands in Windows Console, and we will also write some commands into the Linux subsystem via Windows Terminal. But before we go, let's see all the commands we will use in our experiments.
 
 ### Some of the Basic WSL Commands
+There are perfect and detailed descriptions of most WSL commands at the official site[^2]. This article does not contain all of them.
 The commands I use in the job, described in the article, are:
 - ```wsl --list --all -v``` - Get the list of WSL Distributions we have registered on the local machine
 - ```wsl --list --online``` - Get the list of the official WSL source images we can use to create our local WSL Distributions
-- ```wsl --install -d Debian``` - Install the new local WSL Distributions from the remote official WSL source image.
-- ```wsl --export Debian D:\Polygon\Learn\WSL\Debian.tar``` - Backup the current state of our WSL Distribution to the local directory.
-- ```wsl --import Debian-VSBig D:\Polygon\Learn\WSL\VSBig .\Debian.tar``` - Restore the particular WSL Distribution version to the new separated instance.
-- ```wsl --import Debian-VSCode D:\Polygon\Learn\WSL\VSCode .\Debian.tar``` - Restore the particular WSL Distribution version to the new separated instance.
+- ```wsl --install -d <Online-WSL-Distribution-Image-Name>``` - Install the new local WSL Distributions from the remote official WSL source image.
+- ```wsl --export <Local-WSL-Distribution-Name> <Local-Storage-Path\WSL-Archieve-Name>``` - Backup the current state of our WSL Distribution to the local directory.
+- ```wsl --import <New-WSL-Name> <New-WSL-Working-Directory-Path> <Local-Storage-Path\WSL-Archieve-Name>``` - Restore the particular WSL Distribution version to the new separated instance.
+- ```wsl --distribution <Local-WSL-Distribution-Name>``` - Run the WSL distribution specified by name.
+- ```wsl --terminate <WSL Distribution Name>``` - Run the WSL distribution specified by name.
+- ```wsl --shutdown``` - Immediately terminates all running distributions and the WSL utility virtual machine.
 
 ### Some of Linux Commands
 The commands I use in the job to set up some initial substances inside of the WSL Distributions are:
@@ -104,5 +107,6 @@ Now, we have an approach to running and debugging some Linux-specific tasks from
 
 ## Reference List
 [^1]: [Installing Debian on Windows 10/11 using WSL from the command line](https://feriman.com/installing-debian-on-windows-1011-using-wsl-from-the-command-line/)
+[^2]: [Basic commands for WSL at learn.microsoft.com](https://learn.microsoft.com/en-us/windows/wsl/basic-commands)
 [^I]: [Microsoft training course - Training – Introduction to Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/training/modules/wsl-introduction)
 
