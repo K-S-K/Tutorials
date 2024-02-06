@@ -27,6 +27,7 @@ The commands I use in the job, described in the article, are:
 - ```wsl --distribution <Local-WSL-Distribution-Name>``` - Run the WSL distribution specified by name.
 - ```wsl --terminate <WSL Distribution Name>``` - Run the WSL distribution specified by name.
 - ```wsl --shutdown``` - Immediately terminates all running distributions and the WSL utility virtual machine.
+- ```wsl --unregister <WSL Distribution Name>``` - This command removes the WSL distribution specified by name regardless of whether it is running or stopped.
 
 ### Some of Linux Commands
 The commands I use in the job to set up some initial substances inside of the WSL Distributions are:
