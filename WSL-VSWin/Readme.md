@@ -36,3 +36,4 @@ The archive size at this stage is 817 Mb.
 ## References
 [^ksk-wsl-intro]: [Windows Subsystem for Linux - the neibhour article](../WSL/Readme.md)
 [^ms-intro]: [Build and debug C++ with WSL and Visual Studio - learn.microsoft.com](https://learn.microsoft.com/en-us/cpp/build/walkthrough-build-debug-wsl2?view=msvc-170)
+[^medium-cmake]: [CMake Tutorial - medium.com article](https://medium.com/@onur.dundar1/cmake-tutorial-585dd180109b)
