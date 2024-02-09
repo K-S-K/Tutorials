@@ -37,3 +37,15 @@ The archive size at this stage is 817 Mb.
 [^ksk-wsl-intro]: [Windows Subsystem for Linux - the neibhour article](../WSL/Readme.md)
 [^ms-intro]: [Build and debug C++ with WSL and Visual Studio - learn.microsoft.com](https://learn.microsoft.com/en-us/cpp/build/walkthrough-build-debug-wsl2?view=msvc-170)
 [^medium-cmake]: [CMake Tutorial - medium.com article](https://medium.com/@onur.dundar1/cmake-tutorial-585dd180109b)
+
+
+Other references:
+- https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-170
+- https://learn.microsoft.com/en-us/cpp/build/get-started-linux-cmake?view=msvc-170
+- https://learn.microsoft.com/en-us/cpp/build/walkthrough-build-debug-wsl2?view=msvc-170
+- https://devblogs.microsoft.com/cppblog/build-c-applications-in-a-linux-docker-container-with-visual-studio/
+- https://learn.microsoft.com/en-us/cpp/linux/connect-to-your-remote-linux-computer?view=msvc-170&viewFallbackFrom=vs-2019
+- https://devblogs.microsoft.com/cppblog/using-multi-stage-containers-for-c-development/
+- https://devblogs.microsoft.com/cppblog/c-with-visual-studio-2019-and-windows-subsystem-for-linux-wsl/
+- https://devblogs.microsoft.com/cppblog/debugging-linux-cmake-projects-with-gdbserver/
+
