@@ -7,3 +7,7 @@ There will be some simple notes to keep knowledge hands-on.
 
 #### [WSL-targeted development with Visual Studio Code](WSL-VSCode/Readme.md)
 
+
+[Import any Linux distribution to use with WSL](https://learn.microsoft.com/en-us/windows/wsl/use-custom-distro)
+
+[Training – Introduction to Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/training/modules/wsl-introduction/?source=recommendations)
