@@ -9,4 +9,4 @@ https://code.visualstudio.com/docs/cpp/introvideos-cpp
 
 
 #### Useful things:
-- You can format an entire file with Format Document (Ctrl+Shift+I) 
+- You can format an entire file with Format Document (_**Ctrl+Shift+I**_) 
