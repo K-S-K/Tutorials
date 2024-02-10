@@ -12,6 +12,34 @@ https://code.visualstudio.com/docs/cpp/introvideos-cpp
 - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/sourcecontrol/github)
 - 
 
+#### WiFi adapter
+- [Restarting after driver update](https://forums.linuxmint.com/viewtopic.php?t=331246)
+```
+sudo service network-manager restart
+```
+- [Get the WiFi adapter type (and some commands around ("Installing Broadcom Wireless Drivers")](https://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers)
+```
+lspci -nn -d 14e4:
+```
+The answer is: **Network controller [0280]: Broadcom Inc. and subsidiaries BCM43228 802.11a/b/g/n [14e4:4359]**
+- [Identifying Your Broadcom BCM43xx Chipset](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx)
+```
+lspci -vvnn | grep -A 9 Network
+```
+The answer is:
+```
+02:00.0 Network controller [0280]: Broadcom Inc. and subsidiaries BCM43228 802.11a/b/g/n [14e4:4359]
+	Subsystem: Lite-On Communications Inc BCM43228 802.11a/b/g/n [11ad:6603]
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 0
+	Region 0: Memory at b3400000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel modules: bcma, wl
+```
+
+
 
 #### Useful things:
 - You can format an entire file with Format Document (_**Ctrl+Shift+I**_) 
