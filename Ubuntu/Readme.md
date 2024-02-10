@@ -38,10 +38,17 @@ The answer is:
 	Capabilities: <access denied>
 	Kernel modules: bcma, wl
 ```
-- [broadcom-sta-dkms_6.30.223.271-17_all.deb](https://ubuntu.pkgs.org/22.04/ubuntu-multiverse-arm64/broadcom-sta-dkms_6.30.223.271-17_all.deb.html) -> 	http://ports.ubuntu.com/pool/multiverse/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-17_all.deb
+- [broadcom-sta-dkms_6.30.223.271-17_all.deb](https://ubuntu.pkgs.org/22.04/ubuntu-multiverse-arm64/broadcom-sta-dkms_6.30.223.271-17_all.deb.html) -> download http://ports.ubuntu.com/pool/multiverse/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-17_all.deb
+- Online installation:
 ```
 sudo apt-get install broadcom-sta-dkms
 ```
+- Downloaded **deb** package installation:
+```
+sudo apt install ./broadcom-sta-dkms_6.30.223.271-17_all.deb
+```
+
+
 
 
 #### Useful things:
