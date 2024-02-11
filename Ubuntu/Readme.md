@@ -57,16 +57,26 @@ sudo apt install ./broadcom-sta-dkms_6.30.223.271-17_all.deb
 
 
 #### Useful things for Docker:
+- [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 - Enter to the Docker Container session with command line
 ```
 docker exec -it [container-id] bash
 ```
 - [Network mode container in docker-compose](https://stackoverflow.com/questions/58102461/network-mode-container-in-docker-compose)
+- [Volume configuration reference](https://docs.docker.com/compose/compose-file/compose-file-v2/#volume-configuration-reference)
+- [volumes](https://docs.docker.com/compose/compose-file/compose-file-v2/#volumes)
+- [network_mode])(https://docs.docker.com/compose/compose-file/compose-file-v2/#network_mode)
+- 
+- [Can I run multiple instances of a service in docker-compose](https://stackoverflow.com/questions/73988014/can-i-run-multiple-instances-of-a-service-in-docker-compose)
+- [What is a good way to run my Docker containerized application as a systemd service?](https://askubuntu.com/questions/1500625/what-is-a-good-way-to-run-my-docker-containerized-application-as-a-systemd-servi)
 - 
 - [Building images - Multi-stage builds](https://docs.docker.com/build/building/multi-stage/)
 - [Build with Docker - Multi-stage](https://docs.docker.com/build/guide/multi-stage/)
 - [How to define build-args in docker-compose](https://stackoverflow.com/questions/50734271/how-to-define-build-args-in-docker-compose)
 - [How to pass --build-arg parameters from command line to docker-compose.yml file](https://stackoverflow.com/questions/60499764/how-to-pass-build-arg-parameters-from-command-line-to-docker-compose-yml-file)
+- 
+- [How to communicate between Docker containers via "hostname"](https://stackoverflow.com/questions/30545023/how-to-communicate-between-docker-containers-via-hostname)
+- [How to establish a connection between a tcp client/server running in a Docker container and a tcp server/client running in an external device?](https://stackoverflow.com/questions/66782118/how-to-establish-a-connection-between-a-tcp-client-server-running-in-a-docker-co)
 
 
 
