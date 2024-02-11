@@ -51,5 +51,28 @@ sudo apt install ./broadcom-sta-dkms_6.30.223.271-17_all.deb
 
 
 
-#### Useful things:
+#### Useful things for VSCode:
 - You can format an entire file with Format Document (_**Ctrl+Shift+I**_) 
+
+
+#### Useful things for Command Line
+- How to run a program (server) from the command line and still be able to work on the command line while it runs.<br>It must be & after the command.
+```
+./server &
+```
+- How to list processes sorted by Process ID
+```
+ps -e
+```
+- How to list processes sorted by Process Name
+```
+ps -e --sort=cmd
+```
+- How to know what program is listening on a given port
+```
+lsof -i :8080
+```
+- How to list all network connections
+```
+sudo netstat -nlp
+```
