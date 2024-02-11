@@ -55,6 +55,21 @@ sudo apt install ./broadcom-sta-dkms_6.30.223.271-17_all.deb
 - You can format an entire file with Format Document (_**Ctrl+Shift+I**_) 
 
 
+
+#### Useful things for Docker:
+- Enter to the Docker Container session with command line
+```
+docker exec -it [container-id] bash
+```
+- [Network mode container in docker-compose](https://stackoverflow.com/questions/58102461/network-mode-container-in-docker-compose)
+- 
+- [Building images - Multi-stage builds](https://docs.docker.com/build/building/multi-stage/)
+- [Build with Docker - Multi-stage](https://docs.docker.com/build/guide/multi-stage/)
+- [How to define build-args in docker-compose](https://stackoverflow.com/questions/50734271/how-to-define-build-args-in-docker-compose)
+- [How to pass --build-arg parameters from command line to docker-compose.yml file](https://stackoverflow.com/questions/60499764/how-to-pass-build-arg-parameters-from-command-line-to-docker-compose-yml-file)
+
+
+
 #### Useful things for Command Line
 - How to run a program (server) from the command line and still be able to work on the command line while it runs.<br>It must be & after the command.
 ```
