@@ -76,3 +76,8 @@ lsof -i :8080
 ```
 sudo netstat -nlp
 ```
+- How install netstat
+```
+apt install net-tools
+```
+
