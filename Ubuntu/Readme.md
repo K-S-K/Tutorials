@@ -12,6 +12,11 @@ https://code.visualstudio.com/docs/cpp/introvideos-cpp
 - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/sourcecontrol/github)
 - 
 
+
+#### Makefile tutorials
+- [Learn Makefiles With the tastiest examples](https://makefiletutorial.com/)
+- [GNU make](https://www.gnu.org/software/make/manual/make.html)
+
 #### WiFi adapter
 - [Restarting after driver update](https://forums.linuxmint.com/viewtopic.php?t=331246)
 ```
