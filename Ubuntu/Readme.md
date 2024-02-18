@@ -110,6 +110,9 @@ sudo netstat -nlp
 ```
 apt install net-tools
 ```
+- Manual Installation
+```sudo dpkg -i package_file.deb```
+```sudo apt-get remove package_name```
 
 
 
