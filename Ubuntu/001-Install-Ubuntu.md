@@ -4,6 +4,8 @@
 ## Install software after system
 - [Install Google Chrome](google.com/chrome)
 - [Install docker](https://docs.docker.com/engine/install/ubuntu/)
+<details>
+<summary>Bash script</summary>
 ```
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -19,6 +21,9 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
+</details>
+
+
 - Install git
 ```
 sudo apt install git
