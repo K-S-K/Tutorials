@@ -36,11 +36,11 @@ sudo apt install git
 - Read [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/enterprise-cloud@latest/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - Read [Adding a new SSH key to your GitHub account](https://docs.github.com/en/enterprise-cloud@latest/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - ```cd /home/ksk/.ssh``` - Go to the directory where SSH keys are
-- ```ssh-keygen -t ed25519 -C "kisilevski@gmail.com"``` - Create key
+- ```ssh-keygen -t ed25519 -C "yourname@gmail.com"``` - Create key (specify key file name and password for the key
 - ```ls -al``` - See new key files
 - ```eval "$(ssh-agent -s)"``` - Ensure that agent is working
-- ```ssh-add ~/.ssh/gm-ki.keys``` - Register the key
-- ```cat gm-ki.keys.pub``` - Copy keys to GitHub
+- ```ssh-add ~/.ssh/keyfilename``` - Register the key
+- ```cat keyfilename``` - Copy keys to GitHub
 - Go to [your GitHub SSH keys](https://github.com/settings/keys) and register your key
 - 
 - ```git config pull.ff only``` - this is good
