@@ -1,6 +1,29 @@
 # Ubuntu Installation Process
 
 
+## Install software after system
+- [Install Google Chrome](google.com/chrome)
+- [Install docker](https://docs.docker.com/engine/install/ubuntu/)
+```
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+```
+- Install git
+```
+sudo apt install git
+```
+
 ## References
 - [Where to install bootloader when installing Ubuntu as secondary OS](https://askubuntu.com/questions/219514/where-to-install-bootloader-when-installing-ubuntu-as-secondary-os)
 - [Select device boot installation for installing Ubuntu dual boot with Windows 10](https://askubuntu.com/questions/1314321/select-device-boot-installation-for-installing-ubuntu-dual-boot-with-windows-10)
