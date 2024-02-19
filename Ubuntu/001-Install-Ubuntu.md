@@ -5,7 +5,9 @@
 - [Install Google Chrome](google.com/chrome)
 - [Install docker](https://docs.docker.com/engine/install/ubuntu/)
 <details>
+
 <summary>Bash script</summary>
+
 ```
 sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -19,6 +21,7 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
+
 </details>
 
 - Install git
