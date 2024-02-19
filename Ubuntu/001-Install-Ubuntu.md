@@ -57,7 +57,8 @@ sudo apt install git
 - ### Install Docker Compose
 ```sudo apt  install docker-compose```
 
-
+- ### Install Developer Tools
+```apt-get install -y g++ make```
 
 
 ## References
