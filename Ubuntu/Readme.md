@@ -3,7 +3,7 @@
 https://code.visualstudio.com/docs/cpp/introvideos-cpp
 
 
-#### Intro steps:
+## Intro steps:
 - [C/C++ for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
 - [Get started with CMake Tools on Linux](https://code.visualstudio.com/docs/cpp/cmake-linux)
 - 
@@ -13,21 +13,25 @@ https://code.visualstudio.com/docs/cpp/introvideos-cpp
 - 
 
 
-#### Makefile tutorials
+## Makefile tutorials
 - [Learn Makefiles With the tastiest examples](https://makefiletutorial.com/)
 - [GNU make](https://www.gnu.org/software/make/manual/make.html)
 
-#### WiFi adapter
-- [Restarting after driver update](https://forums.linuxmint.com/viewtopic.php?t=331246)
+## WiFi adapter
+<details>
+
+<summary>All attempts information is here</summary>
+
+#### [Restarting after driver update](https://forums.linuxmint.com/viewtopic.php?t=331246)
 ```
 sudo service network-manager restart
 ```
-- [Get the WiFi adapter type (and some commands around ("Installing Broadcom Wireless Drivers")](https://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers)
+#### [Get the WiFi adapter type (and some commands around ("Installing Broadcom Wireless Drivers")](https://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers)
 ```
 lspci -nn -d 14e4:
 ```
 The answer is: **Network controller [0280]: Broadcom Inc. and subsidiaries BCM43228 802.11a/b/g/n [14e4:4359]**
-- [Identifying Your Broadcom BCM43xx Chipset](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx)
+#### [Identifying Your Broadcom BCM43xx Chipset](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx)
 ```
 lspci -vvnn | grep -A 9 Network
 ```
@@ -43,7 +47,7 @@ The answer is:
 	Capabilities: <access denied>
 	Kernel modules: bcma, wl
 ```
-- [broadcom-sta-dkms_6.30.223.271-17_all.deb](https://ubuntu.pkgs.org/22.04/ubuntu-multiverse-arm64/broadcom-sta-dkms_6.30.223.271-17_all.deb.html) -> download http://ports.ubuntu.com/pool/multiverse/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-17_all.deb
+#### [broadcom-sta-dkms_6.30.223.271-17_all.deb](https://ubuntu.pkgs.org/22.04/ubuntu-multiverse-arm64/broadcom-sta-dkms_6.30.223.271-17_all.deb.html) -> download http://ports.ubuntu.com/pool/multiverse/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-17_all.deb
 - Online installation:
 ```
 sudo apt-get install broadcom-sta-dkms
@@ -53,16 +57,19 @@ sudo apt-get install broadcom-sta-dkms
 sudo apt install ./broadcom-sta-dkms_6.30.223.271-17_all.deb
 ```
 
+</details>
 
 
 
-#### Useful things for VSCode:
+
+
+
+## Useful things for VSCode:
 - You can format an entire file with Format Document (_**Ctrl+Shift+I**_) 
 
 
 
-#### Useful things for Docker:
-- [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+## Useful things for Docker:
 - Enter to the Docker Container session with command line
 ```
 docker exec -it [container-id] bash
