@@ -2,8 +2,8 @@
 
 
 ## Install software after system
-- [Install Google Chrome](google.com/chrome)
-- [Install docker](https://docs.docker.com/engine/install/ubuntu/)
+- ### [Install Google Chrome](google.com/chrome)
+- ### [Install docker](https://docs.docker.com/engine/install/ubuntu/)
 <details>
 
 <summary>Bash script</summary>
@@ -24,7 +24,7 @@ sudo apt-get update
 
 </details>
 
-- Install git
+- ### Install git
 ```
 sudo apt install git
 ```
@@ -52,9 +52,11 @@ sudo apt install git
 - ```git remote set-url origin ssh://git@github.com/K-S-K/CCSS.git/```
 - ```git remote -v```
 
-
-
 </details>
+
+- ### Install Docker Compose
+```sudo apt  install docker-compose```
+
 
 
 
