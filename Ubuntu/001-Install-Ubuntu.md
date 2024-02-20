@@ -72,9 +72,10 @@ sudo apt install git
 
 
 
-
+https://phoenixnap.com/kb/ssh-permission-denied-publickey
 
 SRV: sudo nano sshd_config
+
 CLI: ssh-copy-id -i ~/.ssh/rpi-gm-ki.pub -p22 ksk@KSK-PI3B
 
 
@@ -83,7 +84,11 @@ CLI: ssh-copy-id -i ~/.ssh/rpi-gm-ki.pub -p22 ksk@KSK-PI3B
 
 
 
+https://joy-it.net/en/products/RB-TFT3.2V2
 
+https://joy-it.net/files/files/Produkte/RB-TFT3.2-V2/RB-TFT-Manual_04082020.pdf
+
+http://www.lcdwiki.com/2.8inch_RPi_Display
 
 
 
