@@ -112,11 +112,11 @@ ssh -v ksk@KSK-PI3B
 
 ## 3.2" DISPLAY
 
-https://joy-it.net/en/products/RB-TFT3.2V2
+https://www.waveshare.com/wiki/3.2inch_RPi_LCD_(B)
 
-https://joy-it.net/files/files/Produkte/RB-TFT3.2-V2/RB-TFT-Manual_04082020.pdf
+https://github.com/waveshare/LCD-show
 
-http://www.lcdwiki.com/2.8inch_RPi_Display
+https://www.waveshare.com/3.2inch-rpi-lcd-b.htm
 
 
 
