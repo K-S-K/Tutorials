@@ -9,3 +9,10 @@
 - [How to install Ubuntu Server on your Raspberry Pi](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi)
 - [Install Ubuntu on a Raspberry Pi](https://ubuntu.com/download/raspberry-pi)
 - 
+
+#### Commands:
+- sudo poweroff
+- sudo reboot
+- sudo suspend
+- sudo hibernate
+- sudo hybrid-sleep
