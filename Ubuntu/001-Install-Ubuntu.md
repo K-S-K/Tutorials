@@ -25,6 +25,11 @@ sudo apt-get update
 
 </details>
 
+- ### Install Telegram Desktop
+```
+sudo snap install telegram-desktop
+```
+
 - ### Install git
 ```
 sudo apt install git
