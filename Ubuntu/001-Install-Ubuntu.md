@@ -98,10 +98,19 @@ Connect the server:
 ssh -v ksk@KSK-PI3B
 ```
 
+#### Other materials:
+- [How to create a sudo user on Ubuntu and allow SSH login](https://thucnc.medium.com/how-to-create-a-sudo-user-on-ubuntu-and-allow-ssh-login-20e28065d9ff)
+- [How to fix Permission Denied (Public key) error](https://askubuntu.com/questions/337757/how-to-fix-permission-denied-public-key-error)
+- [Easiest way to copy ssh keys to another machine](https://askubuntu.com/questions/4830/easiest-way-to-copy-ssh-keys-to-another-machine)
+- [Copy the ssh key into remote servers](https://medium.com/@anshulganvir/copy-the-ssh-key-into-remote-servers-3416f13cca47)
+- [How to configure ssh client to use private keys automatically](https://serverfault.com/questions/262626/how-to-configure-ssh-client-to-use-private-keys-automatically)
+- [How to set up an SSH config-file for beginners](https://stackoverflow.com/questions/56287059/how-to-set-up-an-ssh-config-file-for-beginners)
+- [Configure ssh to use the key](https://askubuntu.com/questions/311558/ssh-permission-denied-publickey)
 
 
 
 
+## 3.2" DISPLAY
 
 https://joy-it.net/en/products/RB-TFT3.2V2
 
