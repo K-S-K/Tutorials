@@ -43,6 +43,8 @@ sudo apt install git
 - ```ssh-add ~/.ssh/keyfilename``` - Register the key
 - ```cat keyfilename``` - Copy keys to GitHub
 - Go to [your GitHub SSH keys](https://github.com/settings/keys) and register your key
+- ```git config --global user.email "yourname@gmail.com"``` - Configure your email
+- ```git config --global user.name "Stanislav Kiselevskii"``` - Configure your Name and Last Name
 - 
 - ```git config pull.ff only``` - this is good
 - ```git config pull.rebase true``` - not recommended
