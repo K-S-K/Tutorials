@@ -2,6 +2,7 @@
 
 
 ## Install software after system
+- ### [Install JetBrains Mono Fonts](https://www.jetbrains.com/lp/mono/)
 - ### [Install Google Chrome](google.com/chrome)
 - ### [Install docker](https://docs.docker.com/engine/install/ubuntu/)
 <details>
