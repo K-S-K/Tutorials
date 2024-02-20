@@ -71,13 +71,32 @@ sudo apt install git
 
 
 
+## How to Fix SSH Failed Permission Denied
 
+
+#### Server-side operations: 
 https://phoenixnap.com/kb/ssh-permission-denied-publickey
+```
+sudo nano sshd_config
+```
+Modify parameters:
+- PasswordAuthentication yes
+- KbdInteractiveAuthentication yes
 
-SRV: sudo nano sshd_config
 
-CLI: ssh-copy-id -i ~/.ssh/rpi-gm-ki.pub -p22 ksk@KSK-PI3B
+#### Client-side operations:
 
+Create key
+
+Copy key to the server:
+```
+ssh-copy-id -i ~/.ssh/rpi-gm-ki.pub -p22 ksk@KSK-PI3B
+```
+
+Connect the server:
+```
+ssh -v ksk@KSK-PI3B
+```
 
 
 
