@@ -22,30 +22,7 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
-
 </details>
-
-
-
-- ### Install Docker Buildx service
-```
-sudo apt install docker-buildx
-```
-
-- ### Install Docker Compose
-```
-sudo apt  install docker-compose
-```
-
-- ### Install Developer Tools
-```
-sudo apt-get install -y g++ make
-```
-
-- ### Install Telegram Desktop
-```
-sudo snap install telegram-desktop
-```
 
 
 - ### [Make Docker Commands executable without sudo](https://medium.com/devops-technical-notes-and-manuals/how-to-execute-docker-commands-without-sudo-in-ubuntu-22-04-command-line-tutorial-3d0f24aefbf7):
@@ -90,6 +67,30 @@ sudo docker images
 sudo apt install git
 ```
 <details>
+
+
+
+- ### Install Docker Buildx service
+```
+sudo apt install docker-buildx
+```
+
+- ### Install Docker Compose
+```
+sudo apt  install docker-compose
+```
+
+- ### Install Developer Tools
+```
+sudo apt-get install -y g++ make
+```
+
+- ### Install Telegram Desktop
+```
+sudo snap install telegram-desktop
+```
+
+
 
 <summary>Configure Ubuntu for Git SSH</summary>
 
