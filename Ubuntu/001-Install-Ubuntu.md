@@ -25,6 +25,22 @@ sudo apt-get update
 
 </details>
 
+
+- ### Install Docker Buildx service
+```
+sudo apt install docker-buildx
+```
+
+- ### Install Docker Compose
+```
+sudo apt  install docker-compose
+```
+
+- ### Install Developer Tools
+```
+sudo apt-get install -y g++ make
+```
+
 - ### Install Telegram Desktop
 ```
 sudo snap install telegram-desktop
@@ -61,12 +77,6 @@ sudo apt install git
 - ```git remote -v```
 
 </details>
-
-- ### Install Docker Compose
-```sudo apt  install docker-compose```
-
-- ### Install Developer Tools
-```apt-get install -y g++ make```
 
 
 
