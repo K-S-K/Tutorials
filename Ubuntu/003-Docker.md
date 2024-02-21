@@ -20,3 +20,13 @@ docker context ls
 ```
 docker --context rpi ps
 ```
+
+- Switch to the rpi context
+```
+docker context use rpi
+```
+
+- Switch to the default context
+```
+docker context use default
+```
