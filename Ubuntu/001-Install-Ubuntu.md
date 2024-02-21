@@ -26,6 +26,7 @@ sudo apt-get update
 </details>
 
 
+
 - ### Install Docker Buildx service
 ```
 sudo apt install docker-buildx
@@ -45,6 +46,44 @@ sudo apt-get install -y g++ make
 ```
 sudo snap install telegram-desktop
 ```
+
+
+- ### [Make Docker Commands executable without sudo](https://medium.com/devops-technical-notes-and-manuals/how-to-execute-docker-commands-without-sudo-in-ubuntu-22-04-command-line-tutorial-3d0f24aefbf7):
+
+<details>
+
+<summary>Execute the commands:</summary>
+
+- Check if Docker itself is working
+```
+sudo docker run hello-world
+```
+
+- Check if Docker does not work without sudo
+```
+sudo docker images
+```
+
+- Add the docker group (it might already exist):
+```
+sudo groupadd docker
+```
+
+- Add the connected user “$USER” to the docker group
+```
+sudo gpasswd -a $USER docker
+```
+
+- Activate the changes to group
+```
+newgrp docker
+```
+
+- Test the result
+```
+sudo docker images
+```
+</details>
 
 - ### Install git
 ```
