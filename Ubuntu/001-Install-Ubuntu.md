@@ -6,7 +6,6 @@
 <summary>Expand</summary>
 First, open Bluetooth settings and note the Bluetooth address of the device <br>(6 pairs of hexadecimal digits separated by colons, e.g. 70:F0:87:22:72:8E).
 
-
 Enter command:
 ```
 bluetoothctl
