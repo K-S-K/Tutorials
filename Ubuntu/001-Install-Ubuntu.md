@@ -1,6 +1,31 @@
 # Ubuntu Installation Process
 
 
+## [Autoconnect Bluetooth keyboard](https://askubuntu.com/questions/1450242/autoconnect-bluetooth-keyboard)
+<details>
+<summary>Bash script</summary>
+First, open Bluetooth settings and note the Bluetooth address of the device (6 pairs of hexadecimal digits separated by colons, e.g. 70:F0:87:22:72:8E).
+
+Enter command:
+```
+bluetoothctl
+```
+
+Enter the device's Bluetooth address:
+```
+trust 70:F0:87:22:72:8E
+```
+
+When the system confirms that it now trusts the device, enter exit:
+```
+exit
+```
+
+The next time you start, the device will connect automatically.
+</details>
+
+
+
 ## Install software after system
 - ### [Install JetBrains Mono Fonts](https://www.jetbrains.com/lp/mono/)
 - ### [Install Google Chrome](google.com/chrome)
