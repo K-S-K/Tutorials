@@ -174,3 +174,5 @@ https://www.waveshare.com/3.2inch-rpi-lcd-b.htm
 ## References
 - [Where to install bootloader when installing Ubuntu as secondary OS](https://askubuntu.com/questions/219514/where-to-install-bootloader-when-installing-ubuntu-as-secondary-os)
 - [Select device boot installation for installing Ubuntu dual boot with Windows 10](https://askubuntu.com/questions/1314321/select-device-boot-installation-for-installing-ubuntu-dual-boot-with-windows-10)
+- [How to Enable Hibernate Function in Ubuntu 22.04 LTS](https://askubuntu.com/questions/1240123/how-to-enable-the-hibernate-option-in-ubuntu-20-04)
+- [How to Enable Hibernate Function in Ubuntu 22.04 LTS](https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10/)
