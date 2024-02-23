@@ -1,7 +1,7 @@
 # Ubuntu Installation Process
 
 
-## [Autoconnect Bluetooth keyboard](https://askubuntu.com/questions/1450242/autoconnect-bluetooth-keyboard)
+## [Autoconnect Bluetooth Device](https://askubuntu.com/questions/1450242/autoconnect-bluetooth-keyboard)
 <details>
 <summary>Expand</summary>
 First, open Bluetooth settings and note the Bluetooth address of the device <br>(6 pairs of hexadecimal digits separated by colons, e.g. 70:F0:87:22:72:8E).
@@ -90,6 +90,13 @@ sudo docker images
 - ### Install git
 ```
 sudo apt install git
+```
+
+- ### Install Github Desktop
+```
+wget -qO - https://apt.packages.shiftkey.dev/gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/shiftkey-packages.gpg > /dev/null
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-packages.gpg] https://apt.packages.shiftkey.dev/ubuntu/ any main" > /etc/apt/sources.list.d/shiftkey-packages.list'
+sudo apt update && sudo apt install github-desktop
 ```
 <details>
 
