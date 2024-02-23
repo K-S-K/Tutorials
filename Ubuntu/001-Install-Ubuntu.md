@@ -115,7 +115,11 @@ sudo apt-get install -y g++ make
 sudo snap install telegram-desktop
 ```
 
+- ### [Check Bluetooth devices battery status](https://askubuntu.com/questions/1117563/)
+```
+upower --dump
 
+```
 
 <summary>Configure Ubuntu for Git SSH</summary>
 
