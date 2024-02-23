@@ -30,3 +30,8 @@ docker context use rpi
 ```
 docker context use default
 ```
+
+## [Dockerfile RUN vs CMD vs ENTRYPOINT](https://medium.com/ci-cd-devops/dockerfile-run-vs-cmd-vs-entrypoint-ae0d32ffe2b4)
+- **RUN** is an image build step, the state of the container after a RUN command will be committed to the container image. A Dockerfile can have many RUN steps that layer on top of one another to build the image.
+- **CMD** is the command the container executes by default when you launch the built image. A Dockerfile will only use the final CMD defined. The CMD can be overridden when starting a container with docker run $image $other_command.
+- **ENTRYPOINT** is also closely related to CMD and can modify the way a container is started from an image. Default parameters that cannot be overridden when Docker Containers run with CLI parameters.
