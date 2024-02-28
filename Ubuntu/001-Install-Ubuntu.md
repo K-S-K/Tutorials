@@ -98,8 +98,6 @@ wget -qO - https://apt.packages.shiftkey.dev/gpg.key | gpg --dearmor | sudo tee 
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-packages.gpg] https://apt.packages.shiftkey.dev/ubuntu/ any main" > /etc/apt/sources.list.d/shiftkey-packages.list'
 sudo apt update && sudo apt install github-desktop
 ```
-<details>
-
 
 
 - ### Install Docker Buildx service
@@ -122,7 +120,7 @@ sudo apt-get install -y g++ make
 sudo snap install telegram-desktop
 ```
 
-- #### [Install VSCode]()
+- #### [Install VSCode](https://code.visualstudio.com/docs/setup/linux)
 ```
 sudo apt-get install wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -143,6 +141,7 @@ upower --dump
 ```
 
 <summary>Configure Ubuntu for Git SSH</summary>
+<details>
 
 #### The configuration steps:
 - Read [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/enterprise-cloud@latest/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
