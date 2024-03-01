@@ -120,17 +120,11 @@ sudo apt-get install -y g++ make
 sudo snap install telegram-desktop
 ```
 
-- #### [Install VSCode](https://code.visualstudio.com/docs/setup/linux)
+- #### [Install VSCode](https://askubuntu.com/questions/616075/how-do-i-install-visual-studio-code)
 ```
-sudo apt-get install wget gpg
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
-sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-rm -f packages.microsoft.gpg
-
-sudo apt install apt-transport-https
-sudo apt update
-sudo apt install code # or code-insiders
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
+sudo add-apt-repository -y "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt -y install code
 ```
 
 
