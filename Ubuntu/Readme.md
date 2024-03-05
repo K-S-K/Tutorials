@@ -123,6 +123,7 @@ apt install net-tools
 ```sudo apt-get remove package_name```
 
 - [Configure Apple Keyboard Behavior](https://help.ubuntu.com/community/AppleKeyboard#Change_Function_Key_behavior)
+
 There are three modes of Fn key:
 - - 0 = disabled : Disable the 'fn' key. Pressing 'fn'+'F8' will behave like you only press 'F8'
   - 1 = fkeyslast : Function keys are used as last key. Pressing 'F8' key will act as a special key. Pressing 'fn'+'F8' will behave like a F8.
