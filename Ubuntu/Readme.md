@@ -122,6 +122,16 @@ apt install net-tools
 ```sudo dpkg -i package_file.deb```
 ```sudo apt-get remove package_name```
 
+- [Configure Apple Keyboard Behavior](https://help.ubuntu.com/community/AppleKeyboard#Change_Function_Key_behavior)
+There are three modes of Fn key:
+- - 0 = disabled : Disable the 'fn' key. Pressing 'fn'+'F8' will behave like you only press 'F8'
+  - 1 = fkeyslast : Function keys are used as last key. Pressing 'F8' key will act as a special key. Pressing 'fn'+'F8' will behave like a F8.
+  - 2 = fkeysfirst : Function keys are used as first key. Pressing 'F8' key will behave like a F8. Pressing 'fn'+'F8' will act as special key (play/pause).
+Temporarily:
+```
+echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
+```
+
 
 ## Other things
 - [Build Your Own Email Server on Ubuntu: Basic Postfix Setup](https://www.linuxbabe.com/mail-server/setup-basic-postfix-mail-sever-ubuntu)
