@@ -6,6 +6,7 @@ https://code.visualstudio.com/docs/cpp/introvideos-cpp
 ## Intro steps:
 - [C/C++ for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
 - [Get started with CMake Tools on Linux](https://code.visualstudio.com/docs/cpp/cmake-linux)
+- [Using C++ on Linux in VS Code](https://code.visualstudio.com/docs/cpp/config-linux)
 - 
 - [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
 - [Introduction to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git)
