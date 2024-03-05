@@ -122,3 +122,6 @@ apt install net-tools
 ```sudo apt-get remove package_name```
 
 
+## Other things
+- [Build Your Own Email Server on Ubuntu: Basic Postfix Setup](https://www.linuxbabe.com/mail-server/setup-basic-postfix-mail-sever-ubuntu)
+- []()
