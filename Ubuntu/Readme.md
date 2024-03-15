@@ -102,9 +102,9 @@ docker exec -it [container-id] bash
 ```
 ps -e
 ```
-- How to list processes sorted by Process Name
+- How to remove a directory with all its containment
 ```
-ps -e --sort=cmd
+sudo rm -rf folderName
 ```
 - How to know what program is listening on a given port
 ```
