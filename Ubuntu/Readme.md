@@ -133,6 +133,13 @@ Temporarily:
 echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode
 ```
 
+- [https://askubuntu.com/questions/1098101/how-to-turn-off-the-wifi-power-management-in-ubuntu-18-04-live](https://askubuntu.com/questions/1296506/ubuntu-20-04-why-does-turning-off-wi-fi-can-be-turned-off-to-save-power-turn)
+```
+cd https://askubuntu.com/questions/1296506/ubuntu-20-04-why-does-turning-off-wi-fi-can-be-turned-off-to-save-power-turn
+```
+```
+sudo nano default-wifi-powersave-on.conf
+```
 
 ## Other things
 - [Build Your Own Email Server on Ubuntu: Basic Postfix Setup](https://www.linuxbabe.com/mail-server/setup-basic-postfix-mail-sever-ubuntu)
