@@ -143,4 +143,8 @@ sudo nano default-wifi-powersave-on.conf
 
 ## Other things
 - [Build Your Own Email Server on Ubuntu: Basic Postfix Setup](https://www.linuxbabe.com/mail-server/setup-basic-postfix-mail-sever-ubuntu)
+- excalidraw
+- - [excalidraw.com](https://excalidraw.com/)
+- - [excalidraw git](https://github.com/excalidraw/excalidraw)
+- - [Draw schemas in VS Code using Excalidraw](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
 - []()
