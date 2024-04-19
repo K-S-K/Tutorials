@@ -127,6 +127,25 @@ sudo add-apt-repository -y "deb [arch=amd64] https://packages.microsoft.com/repo
 sudo apt -y install code
 ```
 
+- #### [Install MPLAB](https://forum.microchip.com/s/topic/a5C3l000000MZEDEA4/t365477)
+- - Download and extract MPLAB IDE installer for Linux
+  - Make it executable
+```
+chmod u+x MPLABX-v6.20-linux-installer.sh
+```
+  - Install this thing:
+```
+sudo apt-get install libc6:i386 libx11-6:i386 libxext6:i386 libstdc++6:i386 libexpat1:i386
+```
+  - Execute installer
+```
+sudo ./MPLABX-v6.20-linux-installer.sh
+```
+
+
+
+
+
 
 - ### [Check Bluetooth devices battery status](https://askubuntu.com/questions/1117563/)
 ```
