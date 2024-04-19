@@ -18,3 +18,7 @@ There will be some simple notes to keep knowledge hands-on.
 
 
 [How to Run Windows 10/11 on Mac using Parallels (Step by Step)](https://www.youtube.com/watch?v=Qk2n1nwMvmk)
+
+[Choose your new MacBook Pro](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-pro)
+
+[MacBook Pro (14-inch, M3, Nov 2023) - Technical Specifications](https://support.apple.com/en-us/117735)
