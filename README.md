@@ -15,3 +15,6 @@ There will be some simple notes to keep knowledge hands-on.
 
 
 [Connect Visual Studio Code to remote Docker over SSH](https://code.visualstudio.com/docs/containers/ssh)
+
+
+[How to Run Windows 10/11 on Mac using Parallels (Step by Step)](https://www.youtube.com/watch?v=Qk2n1nwMvmk)
