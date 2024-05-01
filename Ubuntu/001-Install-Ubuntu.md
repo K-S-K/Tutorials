@@ -143,8 +143,10 @@ sudo ./MPLABX-v6.20-linux-installer.sh
 ```
 
 
-
-
+- #### Install MPEG-4 AAC decoder, and the H.264 decoder
+```
+sudo apt-get install ubuntu-restricted-extras
+```
 
 
 - ### [Check Bluetooth devices battery status](https://askubuntu.com/questions/1117563/)
