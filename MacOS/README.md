@@ -3,6 +3,20 @@
 #### Docker
 - [Can I use docker for installing ubuntu on a Mac?](https://stackoverflow.com/questions/40112083/can-i-use-docker-for-installing-ubuntu-on-a-mac)
 
+#### [Home Brew](https://stackoverflow.com/questions/36657321/after-installing-homebrew-i-get-zsh-command-not-found-brew)
+
+
+#### C++ Compiler 
+- Redirect
+```
+cd ~
+touch .zshrc
+open .zshrc
+
+export PATH=/opt/homebrew/bin:$PATH
+alias g++="g++-14"
+'''
+
 #### MacBook
 - [Choose your new MacBook Pro (M3 Pro)](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch)
 - [Choose your new MacBook Pro (M3 Max)](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-max)
@@ -23,3 +37,9 @@
 #### Zed IDE
 - [Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. It's also open source.](https://zed.dev/)
 - [Zed “kills” VSCode](https://youtu.be/Fk08oNi0j1Y)
+cd ~
+touch .zshrc
+open .zshrc
+
+export PATH=/opt/homebrew/bin:$PATH
+alias g++="g++-14"
