@@ -1,4 +1,4 @@
-
+# Wireless Applications 
 
 
 [Homemade anti-tracking device](https://www.raspberrypi.com/news/homemade-anti-tracking-device/)
@@ -8,7 +8,7 @@
 [Create your own Slack bot with a Raspberry Pi Pico W - 2023.11.19](https://www.raspberrypi.com/news/create-your-own-slack-bot-with-a-raspberry-pi-pico-w/) 
 
 
-- 
+# Hardware 
 
 
 [Supporting KiCad open source design automation software](https://www.raspberrypi.com/news/supporting-kicad-open-source-design-automation-software/) 
@@ -17,7 +17,7 @@
 
 [Get started with Raspberry Pi Pico-series and VS Code - 2024.10.18](https://www.raspberrypi.com/news/get-started-with-raspberry-pi-pico-series-and-vs-code/) 
 
-- 
+# Camera Related 
 
 [Pi Cam: a Raspberry Pi-powered remote camera](https://www.raspberrypi.com/news/pi-cam-a-raspberry-pi-powered-remote-camera/)
 
@@ -37,9 +37,11 @@
 
 [The Official Raspberry Pi Camera Module Guide out now: build amazing vision-based projects - 2024.11.22](https://www.raspberrypi.com/news/the-official-raspberry-pi-camera-module-guide-out-now-build-amazing-vision-based-projects/)
 
+# Nature Monitoring 
+
 [Watch the earth move with Raspberry Shake - 2024.03.15](https://www.raspberrypi.com/news/watch-the-earth-move-with-raspberry-shake/)
 
-- 
+# Space and Astronomy 
 
 [Let Raspberry Pi spot the aurora borealis for you while you stay warm (and asleep) - 2024.02.28](https://www.raspberrypi.com/news/let-raspberry-pi-spot-the-aurora-borealis-for-you-while-you-stay-warm-and-asleep/) 
 
